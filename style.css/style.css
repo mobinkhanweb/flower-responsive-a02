@@ -261,7 +261,14 @@
     height: 533px;
 }
 
+.down-footer{
+    margin-bottom: 500px;
+    justify-content: space-between;
+}
 
+.down-footer .left{
+    
+}
 /* mobile responsive */
 
 @media (max-width: 768px) {

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+    max-width: 1280px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Shared Styles */
+.display-flex{
+    display: flex;
+}
+
+/* nav Style */
+.brand-logo{
+    width: 135px;
+    height: 82px;
+}
+.nav-bar{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.nav-items{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    gap: 24px;
+}
+.cart-part{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+.bold-nav{
+    color: rgba(37, 36, 50, 1);
+}

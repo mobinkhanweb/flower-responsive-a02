@@ -129,6 +129,34 @@
 }
 
 
+/* Flower & Plants Lover */
+.lover-container{
+    gap: 4rem;
+    align-items: center; 
+    margin-bottom: 120px;
+    margin-top: 210px;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    width: 250px;
+    left: 380px;
+    top: -120px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.lover-left img{
+    position:relative; 
+}
+.lover-right h2{
+    font-size: 3.2rem;
+    margin-bottom: 42px;
+}
+.lover-right li{
+    padding-bottom: 30px;
+    padding-left: 42px;
+}
 
 /* mobile responsive */
 
@@ -136,6 +164,9 @@
     
     .nav-bar {
         justify-content: space-between;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 30px;
     }
     .nav-item{
         background-color: brown;
@@ -146,7 +177,6 @@
         gap: 30px;
     }
     .banner img{
-        background-color: bisque;
         margin-right: 0;
     }
     .banner h1{

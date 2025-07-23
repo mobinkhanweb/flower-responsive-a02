@@ -161,7 +161,7 @@
 
 /* Latest Deals */
 
-.latest-deals{
+.latest-deals-container{
     gap: 32px;
     height: 450px;
     margin-bottom: 130px;
@@ -218,7 +218,7 @@
 .latest-deal-right{
     background-image: url(../assets/deal-zabo.png);
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 14px;
     align-content: center;
     align-items: center;
@@ -235,8 +235,31 @@
     font-weight: bold;
 }
 
-
-
+/* footer section */
+.emailbox{
+    height: 50px;
+    width: 644px;
+    margin-bottom: 120px;
+    padding-left: 25px;
+}
+.footermail h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.footermail{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+    width: 100%;
+    height: 533px;
+}
 
 
 /* mobile responsive */
@@ -298,4 +321,41 @@
     .lover-right li{
         width: 95%;
     }
-}    
+
+    .latest-deals-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .latest-deal-left{
+        width: 100%;
+        height: 500%;
+    }
+    .latest-deal-right{
+        width: 100%;
+        height: 250%;
+    }
+    .footermail{
+        flex-direction: column;
+    }
+    .footermail h1{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    }
+    .footermail{
+        width: 100%;
+        height: 250px;
+    }
+    .emailbox{
+        width: 218px;
+        height: 50px;
+        margin: 0;
+        flex-wrap: ;
+    }
+    .footermail .btn{
+        width: 103px;
+    }
+}

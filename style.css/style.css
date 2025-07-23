@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin:0 auto;
     padding: 0;
-    max-width: 1280px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -10,22 +9,49 @@
 .display-flex{
     display: flex;
 }
-
+.container{
+    max-width: 1280px;
+    margin:0 auto;
+}
+.noto{
+    font-family: "Noto Serif", serif;
+}
+.description{
+    color: rgba(0, 0, 0, 0.5);
+    width: 75%;
+    margin: 0;
+}
+.h2-color{
+    color: rgba(233, 90, 8, 1);
+}
+.btn{
+    background-color: rgba(233, 90, 8, 1);
+    width: 270px;
+    height: 50px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
 /* nav Style */
 .brand-logo{
     width: 135px;
     height: 82px;
+    margin: 0;
 }
 .nav-bar{
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+    max-width: 1280px;
+    margin-bottom: 120px;
 }
 .nav-items{
     padding-top: 22px;
     padding-bottom: 22px;
     gap: 24px;
-}
+    margin: 0;
+    padding: 0;
+} 
 .cart-part{
     display: flex;
     gap: 6px;
@@ -37,4 +63,55 @@
 }
 .bold-nav{
     color: rgba(37, 36, 50, 1);
+}
+
+/* hero banner */
+.banner{
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.banner h1{
+    font-size: 4rem;
+    color: rgba(233, 90, 8, 1);
+    width: 75%;
+    margin: 0;
+    line-height: 4.5rem;
+    margin-bottom: 16px;
+}
+.h1-color{
+    color: rgba(0, 0, 0, 1);
+}
+.banner-right img{
+    display: block;
+}
+
+
+/* Card Section */
+.top-part{
+    text-align: center;
+    justify-content: center;
+}
+.top-part p{
+    text-align: center;
+    max-width: 55%;
+    margin: auto;
+}
+.top-part h2{
+    font-size: 3.1rem;
+}
+
+/* card */
+.card-container{
+    background-color: rgb(82, 200, 255);
+}
+.card{
+    background-color: blanchedalmond;
+    width: 270px;
+    height: 485px;
+    text-align: center;
+    height: fit-content;
+}
+.card img{
+    margin-bottom: 16px;
 }

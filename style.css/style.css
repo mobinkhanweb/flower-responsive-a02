@@ -198,4 +198,22 @@
         max-width: 95%;
         margin: auto;
     }
+    .lover-container{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 24px;
+    }
+    .badge{
+        display: none;
+    }
+    .lover-right h2{
+        font-size: 1.5rem;
+        margin-left: 30px;
+    }
+    .lover-right h2 br{
+        display: none;
+    }
+    .lover-right li{
+        width: 95%;
+    }
 }    

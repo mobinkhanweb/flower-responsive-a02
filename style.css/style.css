@@ -388,7 +388,7 @@ body{
 
 
 /* mobile responsive */
-@media screen and (min-width: 450px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
     .nav-bar {
         justify-content: space-between;
@@ -438,6 +438,7 @@ body{
     .customize{
         flex-direction: column;
         padding-bottom: 32px;
+        display: none;
     }
     .card {
         width: auto;

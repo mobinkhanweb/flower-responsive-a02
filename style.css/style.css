@@ -180,6 +180,7 @@ body{
 
 .lover-left img {
     position: relative;
+    display: flex;
 }
 
 .lover-right h2 {
@@ -411,13 +412,13 @@ body{
 
     .banner img {
         margin-right: 16px;
-        width: 90%;
+        width: 100%;
 
     }
 
     .banner h1 {
-        font-size: 2.8rem;
-        line-height: 3rem;
+        font-size: 2.3rem;
+        line-height: 2.2rem;
         padding-left: 8px;
     }
 
@@ -425,7 +426,7 @@ body{
         width: 90%;
         padding-left: 8px;
     }
-
+/* card container */
     .card-container {
         grid-template-columns: repeat(2, 2fr);
         flex-direction: column;
@@ -434,10 +435,6 @@ body{
         gap: 8px;
         row-gap: 8px;
         margin-bottom: 80px;
-    }
-    .customize{
-        flex-direction: column;
-        padding-bottom: 32px;
         display: none;
     }
     .card {
@@ -457,12 +454,18 @@ body{
         max-width: 95%;
         margin: auto;
     }
-
+/* lover container */
     .lover-container {
         flex-direction: column;
         gap: 10px;
         margin-top: 24px;
     }
+    .lover-container img{
+        width: 90%;
+    }
+
+
+
 
     .badge {
         display: none;
@@ -497,6 +500,12 @@ body{
     .latest-deal-right {
         width: 100%;
         height: 250%;
+    }
+
+    .customize{
+        flex-direction: column;
+        padding-bottom: 32px;
+        display: none;
     }
 
     .footermail {

@@ -349,7 +349,7 @@
 }
 
 /* mobile responsive */
-@media (max-width: 576px) {
+@media screen and (min-width: 450px) and (max-width: 576px) {
 
     .nav-bar {
         justify-content: space-between;
@@ -388,19 +388,19 @@
     }
 
     .card-container {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 100%;
+        grid-template-columns: repeat(2, 2fr);
         flex-direction: column;
         margin-left: 8px;
         margin-right: 8px;
+        gap: 8px;
+        row-gap: 8px;
+        margin-bottom: 80px;
     }
 
     .card {
-
         width: auto;
         height: auto;
         text-align: center;
-        height: fit-content;
         margin-bottom: 16px;
         background-color: rgb(255, 255, 255);
         box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);;

@@ -121,7 +121,6 @@ body{
 
 /* card */
 .card-container {
-    flex: 1;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0;
@@ -132,31 +131,16 @@ body{
 }
 
 .card {
-
-    width: auto;
-    height: auto;
     text-align: center;
-    height: fit-content;
-    max-width: 1280px;
+    margin: 0 auto;
     margin-bottom: 32px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);
 }
 
 .card img {
     margin-bottom: 16px;
 }
-
-.card-container {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0;
-    padding: 0;
-    max-width: 1280px;
-    gap: 24px;
-    margin-top: 48px;
-}
-
 
 /* Flower & Plants Lover */
 .lover-container {
@@ -428,24 +412,26 @@ body{
     }
 /* card container */
     .card-container {
-        grid-template-columns: repeat(2, 2fr);
-        flex-direction: column;
-        margin-left: 8px;
-        margin-right: 8px;
-        gap: 8px;
-        row-gap: 8px;
-        margin-bottom: 80px;
-        display: none;
+        /* display: grid;
+        grid-template-columns:
+        repeat(auto-fill, minmax(200px, 2fr)); */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        
+        
     }
     .card {
-        width: auto;
-        height: auto;
-        text-align: center;
-        margin-bottom: 16px;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);
-    }
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);
+}
 
+.card img {
+    margin-bottom: 10px;
+    width: fit-content;
+}
+    
     .top-part h2 {
         font-size: 2rem;
     }

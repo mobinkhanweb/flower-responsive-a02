@@ -288,6 +288,14 @@ body{
     margin-bottom: 12px;
 }
 
+/* .emailbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: burlywood;
+} */
+
 .footermail {
     background-image: url(../assets/news-letter-bg.png);
     background-size: cover;
@@ -351,6 +359,10 @@ body{
     margin: 0 24px;
     width: 36px;
 }
+
+
+
+
 
 /* mobile responsive */
 @media screen and (min-width: 450px) and (max-width: 576px) {

@@ -207,7 +207,7 @@
 }
 
 .latest-deal-left .top-img {
-    background-image: url("../assets/deal-bloom.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../assets/deal-bloom.png");
     width: 100%;
     height: 50%;
     border-radius: 14px;
@@ -228,7 +228,7 @@
 }
 
 .latest-deal-left .bottom-img {
-    background-image: url(../assets/deal-ana.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../assets/deal-ana.png);
     width: 100%;
     height: 50%;
     border-radius: 14px;
@@ -249,7 +249,7 @@
 }
 
 .latest-deal-right {
-    background-image: url(../assets/deal-zabo.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../assets/deal-zabo.png);
     width: 100%;
     height: auto;
     border-radius: 14px;

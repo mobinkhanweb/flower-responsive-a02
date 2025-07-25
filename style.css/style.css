@@ -87,7 +87,7 @@ body {
     margin-bottom: 130px;
 }
 
-.banner h1 {
+.banner-left h1 {
     font-size: 4rem;
     color: rgba(233, 90, 8, 1);
     width: 75%;
@@ -418,7 +418,7 @@ body {
 
     }
 
-    .banner h1 {
+    .banner-left h1 {
         max-width: 75%;
         font-size: 2.2rem;
         line-height: 2.4rem;

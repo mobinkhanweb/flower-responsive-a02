@@ -4,9 +4,11 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     background-color: rgba(245, 248, 255, 1);
 }
+
 /* Shared Styles */
 .display-flex {
     display: flex;
@@ -113,6 +115,7 @@ body{
     text-align: center;
     max-width: 55%;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .top-part h2 {
@@ -123,11 +126,12 @@ body{
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0;
-    padding: 0;
-    max-width: 1280px;
-    gap: 24px;
+    /* margin: 0;
+    padding: 0; */
+    max-width: 100%;
     margin-top: 48px;
+    margin: auto;
+    padding: 0;
 }
 
 .card {
@@ -136,10 +140,11 @@ body{
     margin-bottom: 32px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);
+    margin:16px center;
 }
 
 .card img {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 /* Flower & Plants Lover */
@@ -257,37 +262,44 @@ body{
     color: white;
     font-weight: bold;
 }
+
 /* Customize-floral */
 
-.customize{
+.customize {
     align-items: center;
     background-color: white;
     border-radius: 24px;
     border: 0.3px solid rgb(196, 196, 196);
 }
-.customize-img-container img{
+
+.customize-img-container img {
     width: 250px;
     height: 250px;
     padding: 8px;
     border-radius: 24px;
 }
+
 .customize-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px; 
+    gap: 16px;
     padding: 24px;
 }
-.customize-right{
+
+.customize-right {
     padding-left: 80px;
 }
-.customize-right .btn{
+
+.customize-right .btn {
     border-radius: 8px;
     margin-top: 24px;
 }
-.customize-right h2{
+
+.customize-right h2 {
     font-size: 3rem;
     margin-bottom: 24px;
 }
+
 /* footer section */
 .emailbox {
     height: 50px;
@@ -410,43 +422,61 @@ body{
         width: 90%;
         padding-left: 8px;
     }
-/* card container */
+
+    /* card container */
     .card-container {
         /* display: grid;
         grid-template-columns:
         repeat(auto-fill, minmax(200px, 2fr)); */
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        
-        
-    }
-    .card {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);
-}
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        gap: 0;
+        max-width: 100%;
 
-.card img {
-    margin-bottom: 10px;
-    width: fit-content;
-}
-    
+        max-width: 100%;
+        margin-top: 48px;
+        background-color:transparent;
+        margin: 6px;
+        padding: 0;
+
+    }
+
+    .card {
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.1), 0 6px 20px 0 rgba(130, 130, 130, 0.35);
+        width: 70%;
+    }
+
+    .card .btn {
+        width: 100%;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
     .top-part h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .top-part p {
         max-width: 95%;
         margin: auto;
+        margin-bottom: 80px;
     }
-/* lover container */
+
+    /* lover container */
     .lover-container {
         flex-direction: column;
         gap: 10px;
         margin-top: 24px;
     }
-    .lover-container img{
+
+    .lover-container img {
         width: 90%;
     }
 
@@ -488,7 +518,7 @@ body{
         height: 250%;
     }
 
-    .customize{
+    .customize {
         flex-direction: column;
         padding-bottom: 32px;
         display: none;
